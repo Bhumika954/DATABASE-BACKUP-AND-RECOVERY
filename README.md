@@ -12,7 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
-#In Task 4 of the CODTECH internship, I focused on demonstrating how to back up and restore a MySQL database using command-line tools. The purpose of this task was to show that I can preserve and recover data in case of system failure or accidental deletion. This is a critical part of database administration and something every organization needs to have in place. The task involved both technical steps and an understanding of how real-world systems are protected through backup strategies.
+#In Task 4 , I focused on demonstrating how to back up and restore a MySQL database using command-line tools. The purpose of this task was to show that I can preserve and recover data in case of system failure or accidental deletion. This is a critical part of database administration and something every organization needs to have in place. The task involved both technical steps and an understanding of how real-world systems are protected through backup strategies.
 
 The main tools used in this task were MySQL Workbench and the Windows Command Prompt. MySQL Workbench was used to manage and view the database, run SQL queries, and simulate failure by dropping the database. For the actual backup and restore, I used the command-line tools that come with MySQL specifically mysqldump for backup and mysql for restore. The command-line interface is important because it allows full control over database operations and is used in real production environments, including automation scripts.
 
