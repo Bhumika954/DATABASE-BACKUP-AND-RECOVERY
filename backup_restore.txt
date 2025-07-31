@@ -1,0 +1,13 @@
+-- Backup Command (run in CMD inside MySQL bin folder)
+mysqldump -u root -p task2_analysis > "C:\Users\Bhumika S\mysql_backup\task2_backup.sql"
+
+-- Simulate failure (optional):
+DROP DATABASE task2_analysis;
+
+-- Recreate database before restoring:
+mysql -u root -p
+CREATE DATABASE task2_analysis;
+EXIT;
+
+-- Restore Command (run in CMD inside MySQL bin folder)
+mysql -u root -p task2_analysis < "C:\Users\Bhumika S\mysql_backup\task2_backup.sql"
